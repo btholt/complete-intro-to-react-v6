@@ -1,0 +1,22 @@
+name: Deploy Gatsby Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: npm install, build, and csv
+        run: |
+          npm install
+          npm run build
+          npm run csv
+      - name: Deploy site to gh-pages branch
+        uses: alex-page/blazing-fast-gh-pages-deploy@v1.1.0
+        with:
+          repo-token: ${{ secrets.ACCESS_TOKEN }}
+          site-directory: public

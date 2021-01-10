@@ -1,0 +1,55 @@
+{
+  "name": "complete-intro-to-react-v6",
+  "description": "come learn React with Brian Holt!",
+  "version": "6.0.0",
+  "author": "Brian Holt <btholt+citrv6@gmail.com>",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "code-mirror-themes": "^1.0.0",
+    "front-matter": "^4.0.2",
+    "gatsby": "^2.30.1",
+    "gatsby-cli": "^2.17.0",
+    "gatsby-link": "^2.9.0",
+    "gatsby-plugin-layout": "^1.8.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sharp": "^2.12.0",
+    "gatsby-remark-autolink-headers": "^2.9.0",
+    "gatsby-remark-copy-linked-files": "^2.8.0",
+    "gatsby-remark-images": "^3.9.0",
+    "gatsby-remark-prismjs": "^3.11.0",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-remark": "^2.14.0",
+    "is-url-superb": "^5.0.0",
+    "parse-markdown-links": "^1.0.4",
+    "prismjs": "^1.23.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-starter",
+    "course",
+    "education"
+  ],
+  "license": "(CC-BY-NC-4.0 OR Apache-2.0)",
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build --prefix-paths",
+    "csv": "node csv.js",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"src/**/*.{js,jsx,md,css}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\""
+  },
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.8.2",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1"
+  }
+}
