@@ -9,9 +9,6 @@ body {
   margin-top: 20px;
 }
 
-.index .jumbotron {
-}
-
 .example-table {
   border-collapse: separate;
 }
@@ -68,4 +65,19 @@ body {
 
 .fem-link {
   text-align: center;
+}
+
+blockquote {
+  padding: 15px;
+  background-color: #dce8ff;
+  border: 2px solid #aab6d2;
+  border-radius: 5px;
+}
+
+blockquote > *:last-child {
+  margin-bottom: 0;
+}
+
+.lesson-content img {
+  max-width: 100%;
 }

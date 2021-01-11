@@ -84,67 +84,6 @@
   font-weight: bold;
 }
 
-.klipse-result {
-  border: 1px solid #90b4fe;
-  padding-top: 8px;
-  position: relative;
-  width: 100%;
-}
-
-.klipse-result .CodeMirror-wrap {
-  width: 100%;
-  border-color: transparent;
-}
-
-.klipse-result::before {
-  content: "result";
-  background-color: white;
-  position: absolute;
-  top: -13px;
-  height: 13px;
-}
-
-.language-htm,
-.language-css,
-.language-js,
-.language-json {
-  width: 100%;
-}
-
-.gatsby-highlight {
-  /* border: 1px solid black; */
-  padding: 4px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.CodeMirror-wrap {
-  width: 100%;
-  font-size: 12px;
-  height: inherit;
-  margin-bottom: 12px;
-}
-
-.CodeMirror-gutters {
-  height: inherit !important;
-}
-
-.klipse-snippet > .CodeMirror {
-  border: none;
-  width: 100%;
-}
-
-.gatsby-highlight > .klipse-snippet {
-  border: 1px solid #90b4fe;
-  width: 100%;
-  border-right: none;
-  position: relative;
-  margin-bottom: 15px;
-}
-
 .doggos {
   width: 100%;
   border: 1px solid #666;
