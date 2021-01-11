@@ -1,4 +1,5 @@
 path,title,order,section,description
-"/intro","Introduction","1A","The First Section","this is the description that will show up in social shares"
+"/intro","Introduction","1A","Welcome","Brian Holt introduces you to himself, the Complete Intro to React version 6, and what you can expect to learn"
 "/page-2","Page 2","2A","The Second Section","The second page"
+"/pure-react","Pure React","2A","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
 "/page-3","Page 3","2B","The Second Section","The third page"
