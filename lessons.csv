@@ -1,3 +1,8 @@
 path,title,order,section,description
 "/intro","Introduction","1A","Welcome","Brian Holt introduces you to himself, the Complete Intro to React version 6, and what you can expect to learn"
 "/pure-react","Pure React","2A","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
+"/components","Components","2B","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
+"/npm","npm","3A","JS Tools","When putting any sort of JavaScript project together, npm is an essential tool. Brian talks about how to get started with npm."
+"/prettier","Prettier","3B","JS Tools","Brian talks about his favorite JS tool, Prettier, a tool that that helps you maintain consistent code style with no work on the dev's part."
+"/eslint","ESLint","3C","JS Tools","An essential part of maintaining a project a long time is discipline in coding standards and avoiding antipatterns. ESLint is a great tool that helps you do just that."
+"/git","Git","3D","JS Tools","Git is a critical part of any JS project and Brian makes sure you have it set up."
