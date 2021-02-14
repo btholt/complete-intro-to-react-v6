@@ -7,3 +7,4 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 3C,ESLint,https://eslint.org,https://github.com/airbnb/javascript,https://code.visualstudio.com/,https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint,http://jshint.com/,,,,,,,,,,,,,
 3D,Git,https://frontendmasters.com/courses/git-in-depth/,,,,,,,,,,,,,,,,,
 3E,Parcel,https://parceljs.org/,https://webpack.js.org/,http://browserify.org/,https://esbuild.github.io/,https://www.rollupjs.org/,https://github.com/btholt/citr-v6-project/tree/master/02-js-tools,,,,,,,,,,,,
+4A,JSX,https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb,https://standardjs.com/,https://github.com/btholt/citr-v6-project/tree/master/03-jsx,,,,,,,,,,,,,,,
