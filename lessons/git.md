@@ -22,7 +22,4 @@ coverage/
 
 This will make it so these things won't get added to our repo. If you want more Git instruction, please check out [Nina Zakharenko's coures on Frontend Masters][nina]
 
-> 🏁 [Click here to see the state of the project up until now: 02-js-tools][step]
-
-[step]: https://github.com/btholt/citr-v6-project/tree/master/02-js-tools
 [nina]: https://frontendmasters.com/courses/git-in-depth/
