@@ -12,7 +12,9 @@ That being said, Parcel is an amazing tool with zero-config. It works with every
 
 Parcel is going to accept an entry point, crawl through all of its dependencies, and output a single, complete file with all of our code in it. This means we can have large applications with many files and many dependencies. It would be an unmanageable mess. Already our React app has two components in one file: App and Pet. It'd be better if these were in separate files so it'd be easier to keep track of what was where. This is where Parcel can help us.
 
-Install Parcel by doing `npm install -D parcel-bundler@1.12.4`.
+Install Parcel by doing `npm install -D parcel@1.12.4`.
+
+> Parcel has recently renamed the npm package from `parcel-bundler` to just `parcel`.
 
 Now inside of your `package.json` put:
 
@@ -71,7 +73,3 @@ Load the page again. Still works! Now we can separate components into separate f
 [parcel]: https://parceljs.org/
 [rollup]: https://www.rollupjs.org/
 [esbuild]: https://esbuild.github.io/
-
-> 🏁 [Click here to see the state of the project up until now: 02-js-tools][step]
-
-[step]: https://github.com/btholt/citr-v6-project/tree/master/02-js-tools

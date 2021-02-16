@@ -31,13 +31,12 @@ const App = () => {
 ReactDOM.render(React.createElement(App), document.getElementById("root"));
 ```
 
-> You will be seeing a console warning `Warning: Each child in a list should have a unique "key" prop.` in your browser console. React's dev warnings are trying to help your code run faster. We'll talk about it in a bit; for now don't worry about them.
+> 🚨 You will be seeing a console warning `Warning: Each child in a list should have a unique "key" prop.` in your browser console. React's dev warnings are trying to help your code run faster. Basically React tries to keep track of components are swapped in order in a list and it does that by you giving it a unique key it can track. If it sees two things have swapped, it'll just move the components instead of re-rendering.
 
 - To make an element have multiple children, just pass it an array of elements.
 - We created a second new component, the `Pet` component. This component represents one pet. When you have distinct ideas represented as markup, that's a good idea to separate that it into a component like we did here.
 - Since we have a new `Pet` component, we can use it multiple times! We just use multiple calls to `React.createElement`.
 - In `createElement`, the last two parameters are optional. Since Pet has no props or children (it could, we just didn't make it use them yet) we can just leave them off.
-- If you're seeing console warnings about keys, ignore it for now.
 
 Okay so we can have multiple pets but it's not a useful component yet since not all pets will be Havanese dogs named Luna (even though _I_ have a Havanese dog named Luna.) Let's make it a bit more complicated.
 
