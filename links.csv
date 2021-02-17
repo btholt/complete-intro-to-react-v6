@@ -13,3 +13,5 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 4B,Hooks,https://developer.mozilla.org/en-US/docs/Web/API/Element/className,https://github.com/btholt/complete-intro-to-react-v5/commit/3c42e352230a758143fd528fbbe3084eae8a8e67,,,,,,,,,,,,,,,,
 4C,useEffect,https://github.com/btholt/citr-v6-project/tree/master/05-useeffect,,,,,,,,,,,,,,,,,
 4D,Custom Hooks,https://github.com/btholt/citr-v6-project/tree/master/06-custom-hooks,,,,,,,,,,,,,,,,,
+4E,Handling User Input,,,,,,,,,,,,,,,,,,
+4F,Component Composition,https://github.com/btholt/citr-v6-project/tree/master/07-component-composition,,,,,,,,,,,,,,,,,
