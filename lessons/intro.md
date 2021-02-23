@@ -8,6 +8,8 @@ description: "Brian Holt introduces you to himself, the Complete Intro to React 
 
 Hello! And welcome to the six edition of the Complete Intro to React as taught by [Brian Holt][twitter].
 
+![Cat, dog, and rat logo for the course](./images/BRAND-WHearts.png)
+
 > You _do not_ need to take this previous versions of this course to take this one. This is a total revision of the course that we do to keep it fresh.
 
 This course is unique as compared to other React introductions because this course attempts to teach you not only React but the ecosystem around React. When I was learning React myself, I found myself frustrated that it seemed like every tutorial started on step 14 and left out the steps 1-13 of how to set up a React project. React is nearly never used by itself, so it's useful to know the tools you're using. I believe you, as a developer, should know how your tools work and what purpose they're serving. Many times have I taught courses similar to this one to hear people using tools and complaining about them because they don't actually know why they're using them, just that they're necessary. As such, in this course, we show you how to build projects without using any tools at all and introduce the various tools one at a time, so you understand the actual problem being solved by the tool. Hopefully, given the knowledge of the problem solved by the tool, you'll embrace the tools despite their complexities due to the ease and power they offer you.

@@ -1,6 +1,7 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 import Card from "../components/TOCCard";
+import hero from "../../lessons/images/Wordmark-XL.png";
 
 import "./index.css";
 
@@ -32,13 +33,15 @@ const IndexPage = () => (
         }
       }
     `}
-    render={props => (
+    render={(props) => (
       <div className="index">
-        <div className="jumbotron gradient">
-          <h1>{props.site.siteMetadata.title}</h1>
-          <h2>{props.site.siteMetadata.subtitle}</h2>
+        <div className="jumbtron-image-container">
+          <img
+            className="jumbotron-image"
+            src={hero}
+            alt="Complete Intro to React v6 and Intermediate React v3"
+          />
         </div>
-
         <Card
           title="Table of Contents"
           content={props.allMarkdownRemark.edges}

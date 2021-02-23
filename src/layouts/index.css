@@ -1,9 +1,9 @@
 .gradient {
-  background: rgb(96, 108, 136);
+  background: rgb(255, 183, 0);
   background: linear-gradient(
-    to bottom,
-    rgb(96, 108, 136) 0%,
-    rgb(63, 76, 107) 100%
+    0deg,
+    rgba(255, 183, 0, 1) 0%,
+    rgba(255, 255, 0, 1) 100%
   );
 }
 
@@ -30,13 +30,24 @@
   margin: inherit;
   padding: inherit;
   text-transform: uppercase;
-  color: white;
+  color: #333;
 }
 
 .jumbotron.gradient {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.jumbotron-image {
+  width: 105%;
+  position: relative;
+  left: -2.5%;
+}
+
+.jumbtron-image-container {
+  position: relative;
+  margin-bottom: 25px;
 }
 
 .navbar-brand.navbar-brand {
@@ -51,6 +62,17 @@
 
 .navbar-brand.navbar-brand:focus {
   color: white;
+}
+
+.navbar-brand-image {
+  width: 100%;
+  max-width: 650px;
+  transition: opacity ease-in-out 0.15s;
+}
+
+.navbar-brand-image:hover,
+.navbar-brand-image:active {
+  opacity: 0.5;
 }
 
 .lesson {
