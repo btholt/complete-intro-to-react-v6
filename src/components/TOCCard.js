@@ -6,7 +6,7 @@ import "./TOCCard.css";
 
 const sortFn = helpers.sorter;
 
-const LessonCard = ({ content, title }) => {
+const LessonCard = ({ content }) => {
   console.log(sortFn);
 
   const sections = content
