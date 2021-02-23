@@ -15,3 +15,4 @@ path,title,order,section,description
 "/custom-hooks","Custom Hooks","4D","Core React Concepts","You can even make your own hooks! Brian shows how to extract logic out of a component to share a hook across components!"
 "/handling-user-input","Handling User Input","4E","Core React Concepts","Brian shows how to wire up your app to work with users interacting with the site."
 "/component-composition","Component Composition","4F","Core React Concepts","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
+"/react-router","React Router","5A","React Capabilities","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
