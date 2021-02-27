@@ -30,7 +30,7 @@ const Results = ({ pets }) => {
               key={pet.id}
               name={pet.name}
               breed={pet.breed}
-              image={pet.image}
+              images={pet.images}
               location={`${pet.city}, ${pet.state}`}
               id={pet.id}
             />
@@ -60,11 +60,11 @@ Let's go make Pet.js look decent:
 
 ```javascript
 const Pet = (props) => {
-  const { name, animal, breed, media, location, id } = props;
+  const { name, animal, breed, images, location, id } = props;
 
-  let hero = "https://petapiv2.blob.core.windows.net/pets/dog6.jpg";
-  if (media.length) {
-    hero = media[0].small;
+  let hero = "https://petapiv2.blob.core.windows.net/pets/none.jpg";
+  if (images.length) {
+    hero = images[0];
   }
 
   return (

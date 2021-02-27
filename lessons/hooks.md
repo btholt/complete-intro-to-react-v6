@@ -147,68 +147,8 @@ const breeds = [];
 
 So now we have a breed dropdown. The only really new thing we did was use the `disabled` property to disable the dropdown when you don't have any breeds. We're going to use the Petfinder API to request breeds based on the animal selected. If you select `dog`, you want to see poodles, labradors, and chihuahuas and parrots, tabbies, and Maine coons. Petfinder has and endpoint that if you give it a valid animal. We'll show you how to do that in the next lesson with effects.
 
-For now, we're going to make a custom hook of our own. Just like `useState` is a hook, there are a few others like `useEffect` (which we'll use in the next lesson), `useReducer` (for doing Redux-like reducers), `useRefs` (for when you need to have programmatic access to a DOM node), and `useContext` (for using React's context which we'll do shortly as well.) But like React hooks, we can use these hooks to make our re-usable hooks. Let's make one that creates a stateful dropdown for us so we can avoid duplication of our code.
+> 🏁 [Click here to see the state of the project up until now: 04-hooks][step]
 
-Make a new file called `useDropdown.js`. Noticed we prefixed it with `use` because it's a hook. You should follow that convention.
-
-```javascript
-import React, { useState } from "react";
-
-const useDropdown = (label, defaultState, options) => {
-  const [state, updateState] = useState(defaultState);
-  const id = `use-dropdown-${label.replace(" ", "").toLowerCase()}`;
-  const Dropdown = () => (
-    <label htmlFor={id}>
-      {label}
-      <select
-        id={id}
-        value={state}
-        onChange={(e) => updateState(e.target.value)}
-        onBlur={(e) => updateState(e.target.value)}
-        disabled={!options.length}
-      >
-        <option />
-        {options.map((item) => (
-          <option key={item} value={item}>
-            {item}
-          </option>
-        ))}
-      </select>
-    </label>
-  );
-  return [state, Dropdown];
-};
-
-export default useDropdown;
-```
-
-This looks like we just made the previous dropdowns generic which is exactly what we did. We use hooks internally to keep the state and then we return the component and the state to the user via an array which can destructure later.
-
-In SearchParam.js
-
-```javascript
-// import at the top
-import useDropdown from "./useDropdown";
-
-// delete the animal and breed useState calls
-
-// under breeds useState
-const [animal, AnimalDropdown] = useDropdown("Animal", "dog", ANIMALS);
-const [breed, BreedDropdown] = useDropdown("Breed", "", breeds);
-
-// replace animal and breed label
-<AnimalDropdown />
-<BreedDropdown />
-```
-
-This extracts out a lot of duplicated logic out into a separate file which can independently maintained and tested which is a big win. Now we have a re-usable stateful dropdown for our entire site! Pretty cool, right?
-
-You will have ESLint errors around un-used variables. This is expected. We'll use them in the next lesson.
-
-Let's go make it make AJAX requests now!
-
-&nbsp;
-
-## 🌳 [3c42e352230a758143fd528fbbe3084eae8a8e67](https://github.com/btholt/complete-intro-to-react-v5/commit/3c42e352230a758143fd528fbbe3084eae8a8e67)
-
+[babel]: https://babeljs.io/
+[step]: https://github.com/btholt/citr-v6-project/tree/master/04-hooks
 [js-api]: https://developer.mozilla.org/en-US/docs/Web/API/Element/className
