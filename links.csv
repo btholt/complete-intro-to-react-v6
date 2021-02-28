@@ -21,3 +21,5 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 5D,Managing State in Class Components,https://github.com/btholt/citr-v6-project/tree/master/09-managing-state-in-class-components,,,,,,,,,,,,,,,,,
 6A,Error Boundaries,https://azure.microsoft.com/en-us/services/monitor/?WT.mc_id=reactintro-github-brholt,https://sentry.io/,https://trackjs.com/,https://en.wikipedia.org/wiki/Don%27t_repeat_yourself,https://github.com/btholt/citr-v6-project/tree/master/10-error-boundaries,,,,,,,,,,,,,
 6B,Context,https://btholt.github.io/complete-intro-to-react-v4/context,https://github.com/btholt/citr-v6-project/tree/master/11-context,,,,,,,,,,,,,,,,
+6C,Portals and Refs,https://github.com/btholt/citr-v6-project/tree/master/12-portals-and-refs,,,,,,,,,,,,,,,,,
+7A,Conclusion,,,,,,,,,,,,,,,,,,

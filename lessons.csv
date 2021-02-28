@@ -21,3 +21,5 @@ path,title,order,section,description
 "/managing-state-in-class-components","Managing State in Class Components","5D","React Capabilities","Class components work a little different from hooks in terms of marshalling state. Brian teaches you how to manage your state using setState and life cycle methods."
 "/error-boundaries","Error Boundaries","6A","Special Case React Tools",
 "/context","Context","6B","Special Case React Tools",
+"/portals-and-refs","Portals and Refs","6C","Special Case React Tools",
+"/conclusion","Conclusion","7A","End of Intro","A quick note and congratulations from Brian for completing the Complete Intro to React v6!"
