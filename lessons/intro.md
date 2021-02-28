@@ -6,21 +6,21 @@ section: "Welcome"
 description: "Brian Holt introduces you to himself, the Complete Intro to React version 6, and what you can expect to learn"
 ---
 
-Hello! And welcome to the six edition of the Complete Intro to React as taught by [Brian Holt][twitter].
+Hello! And welcome to the sixth edition of the Complete Intro to React as taught by [Brian Holt][twitter].
 
 ![Cat, dog, and rat logo for the course](./images/BRAND-WHearts.png)
 
-> You _do not_ need to take this previous versions of this course to take this one. This is a total revision of the course that we do to keep it fresh.
+> You _do not_ need to take the previous versions of this course in order to take this one. This is a total revision of the course that we do to keep it fresh.
 
 This course is unique as compared to other React introductions because this course attempts to teach you not only React but the ecosystem around React. When I was learning React myself, I found myself frustrated that it seemed like every tutorial started on step 14 and left out the steps 1-13 of how to set up a React project. React is nearly never used by itself, so it's useful to know the tools you're using. I believe you, as a developer, should know how your tools work and what purpose they're serving. Many times have I taught courses similar to this one to hear people using tools and complaining about them because they don't actually know why they're using them, just that they're necessary. As such, in this course, we show you how to build projects without using any tools at all and introduce the various tools one at a time, so you understand the actual problem being solved by the tool. Hopefully, given the knowledge of the problem solved by the tool, you'll embrace the tools despite their complexities due to the ease and power they offer you.
 
 ## Who is this course for
 
-You, hopefully. 😄 This course is anyone who wants to know React better. The course assumes only a basic knowledge of JavaScript ((start here if you need help with that)[bootcamp]). This course will equally be useful for people learning React for the first time as it is for people who have written some React but want to understand the tools better. If you have taken previous versions of this course, this course will feature current versions (as of writing) of all the libraries and update on all the new features that have since come out. This class will share much of the structure of v5 since I was really happy with how that course's narrative worked.
+You, hopefully. 😄 This course is for anyone who wants to know React better. The course assumes only a basic knowledge of JavaScript ([start here if you need help with that][bootcamp]). This course will equally be useful for people learning React for the first time as it is for people who have written some React but want to understand the tools better. If you have taken previous versions of this course, this course will feature current versions (as of writing) of all the libraries and update on all the new features that have since come out. This class will share much of the structure of v5 since I was really happy with how that course's narrative worked.
 
 ## Set up
 
-This course works and has been tested in both macOS and Windows 10. It also will work very well in Linux (just follow the macOS instructions.) You shouldn't need a particularly powerful computer for any of this course. 8GB of RAM would more than get you through it and you can definitely get away with less.
+This course works and has been tested on both macOS and Windows 10. It also will work very well on Linux (just follow the macOS instructions). You shouldn't need a particularly powerful computer for any part of this course. 8GB of RAM would more than get you through it and you can definitely get away with less.
 
 - Install Node.js. Make sure your version of Node.js is at least 12, preferably the latest stable release. I prefer using nvm to install Node.js, [see setup instructions here][nvm].
 - While you do not have to use [Visual Studio Code][vsc], it is what I will be using and I'll be giving you fun tips for it along the way. I am on the VS Code team so I'm a bit biased!
@@ -38,7 +38,7 @@ I write these courses and take care to not make mistakes. However when teaching 
 
 My name is Brian Holt and I am a principal program manager at Microsoft. I mostly work on Azure, trying to make it the place you want to deploy your JavaScript code. I also get to work on the Visual Studio Code and TypeScript teams and help make those tools to make you more productive. I've been at Microsoft for about four years as of the writing of this course. Before becoming a PM at Microsoft, I worked in developer relations as well as a frontend and Node.js engineer at LinkedIn, Netflix, Reddit, and a couple of other smaller companies.
 
-I have been working with React for a long time. [Here's my tweet][tweet] from when I launched Reddit's first instance of React.js from 2014. It's been an invaluable tool for me and one of the few tools that I have been happy to use for nearly seven years now. I'm a big fan and I'm hoping I can show you what makes me so happy to continue to use.
+I have been working with React for a long time. [Here's my tweet][tweet] from when I launched Reddit's first instance of React.js from 2014. It's been an invaluable tool for me and one of the few tools that I have been happy to use for nearly seven years now. I'm a big fan and I'm hoping I can show you what makes me so happy to continue to use React.
 
 When I'm not working or developing new Frontend Masters courses, you'll find me in Seattle, WA. I love to travel, get out of breath on my Peloton, play Dota 2 and Overwatch poorly, as well as drink Islay Scotches, local IPAs and medium-roast coffees.
 
@@ -56,7 +56,7 @@ And one last request! [Please star this repo][site]. It helps the course be more
 
 There are two repos for this class: [the website you're currently on][site] and [the example projects][projects].
 
-Every step of this project will have a folder that will be a snapshot of where the project is at that step. If you get stuck, want to copy/paste some long of bit you don't feel like writing, or just want to walk through the code at that point, please do! The primary goal of this is for you to learn so as long as you're learning there's no cheating!
+Every step of this project will have a folder that will be a snapshot of where the project is at that step. If you get stuck, want to copy/paste some long bit of code you don't feel like writing, or just want to walk through the code at that point, please do! The primary goal of this is for you to learn so as long as you're learning there's no cheating!
 
 The naming format will be `step-XX-<name of the lesson>` so you can get a rough idea of order and which lesson the step is coming from. In each snapshot you'll have to run `npm install` again since it'll literally just be another whole copy of the project.
 
