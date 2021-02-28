@@ -87,5 +87,5 @@ data-index={index}
 
 > 🏁 [Click here to see the state of the project up until now: 09-managing-state-in-class-components][step]
 
-[babel]: https://babeljs.io/
 [step]: https://github.com/btholt/citr-v6-project/tree/master/09-managing-state-in-class-components
+[babel]: https://babeljs.io/

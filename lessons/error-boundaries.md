@@ -1,8 +1,8 @@
 ---
 title: "Error Boundaries"
 path: "/error-boundaries"
-order: "5E"
-section: "React Capabilities"
+order: "6A"
+section: "Special Case React Tools"
 description: ""
 ---
 
