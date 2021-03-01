@@ -1,5 +1,5 @@
 ---
-title: "Conclusion"
+title: "Conclusion of Complete Intro to React"
 path: "/conclusion"
 order: "7A"
 section: "End of Intro"
