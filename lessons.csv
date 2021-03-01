@@ -22,4 +22,15 @@ path,title,order,section,description
 "/error-boundaries","Error Boundaries","6A","Special Case React Tools",
 "/context","Context","6B","Special Case React Tools",
 "/portals-and-refs","Portals and Refs","6C","Special Case React Tools",
-"/conclusion","Conclusion","7A","End of Intro","A quick note and congratulations from Brian for completing the Complete Intro to React v6!"
+"/conclusion","Conclusion of Complete Intro to React","7A","End of Intro","A quick note and congratulations from Brian for completing the Complete Intro to React v6!"
+"/intermediate-react-v3","Welcome","8A","Intermediate React v3","Brian introduces you to Intermediate React v3 and explains how the course is structured."
+"/usestate","useState","9A","Hooks in Depth",
+"/useeffect-2","useEffect","9B","Hooks in Depth",
+"/usecontext","useContext","9C","Hooks in Depth",
+"/useref","useRef","9D","Hooks in Depth",
+"/usereducer","useReducer","9E","Hooks in Depth",
+"/usememo","useMemo","9F","Hooks in Depth","useMemo memoizes expensive function calls so they only are re-evaluated when needed."
+"/usecallback","useCallback","9G","Hooks in Depth","useCallback is quite similar and indeed it's implemented with the same mechanisms as useMemo except it's a callback instead of a value"
+"/uselayouteffect","useLayoutEffect","9H","Hooks in Depth",
+"/useimperativehandle","useImperativeHandle","9I","Hooks in Depth",
+"/usedebugvalue","useDebugValue","9J","Hooks in Depth",
