@@ -15,6 +15,7 @@ path,title,order,section,description
 "/custom-hooks","Custom Hooks","4D","Core React Concepts","You can even make your own hooks! Brian shows how to extract logic out of a component to share a hook across components!"
 "/handling-user-input","Handling User Input","4E","Core React Concepts","Brian shows how to wire up your app to work with users interacting with the site."
 "/component-composition","Component Composition","4F","Core React Concepts","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
+"/react-dev-tools","React Dev Tools","4G","Core React Concepts","An essential tool in any React developer's toolbox is the official React Dev Tools extension. Brian shows you how to install and use them."
 "/react-router","React Router","5A","React Capabilities","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
 "/class-components","Class Components","5B","React Capabilities","While many components are written with hooks, the older API of class-based components are still around and still useful. Brian shows you when and how to use the class components API."
 "/class-properties","Class Properties","5C","React Capabilities","Using constructors to set initial state for class components is verbose and can be done better. Brian teaches you to use the new feature in JavaScript, class properties, to make your code easy to read."
