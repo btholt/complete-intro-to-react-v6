@@ -12,4 +12,4 @@ description: ""
 
 The only time you _should_ be using `useLayoutEffect` is to measure DOM nodes for things like animations. In the example, I measure the textarea after every time you click on it (the onClick is to force a re-render.) This means you're running render twice but it's also necessary to be able to capture the correct measurments.
 
-[layout-effect]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FLayoutEffect.js
+[layout-effect]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FLayoutEffect.js

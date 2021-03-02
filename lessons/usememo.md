@@ -16,4 +16,4 @@ If we didn't have the `useMemo` call, everytime I clicked on the title to cause 
 
 Feel try to remove `useMemo`, get `num` to 40 or so, and then click the h1. It'll be slow.
 
-[memo]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FMemo.js
+[memo]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FMemo.js

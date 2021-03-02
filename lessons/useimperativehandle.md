@@ -18,4 +18,4 @@ From the parent, we assign via `useRef` a ref to each of the `ElaborateInput`s w
 
 Again, you probably use this directly but it's good to know it exists. Normally it's better to not use this hook and try to accomplish the same thing via props but sometimes it may be useful to break this one out.
 
-[imperative-handle]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FImperativeHandle.js
+[imperative-handle]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FImperativeHandle.js

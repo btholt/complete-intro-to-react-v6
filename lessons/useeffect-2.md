@@ -12,4 +12,4 @@ Effects are how you recreate `componentDidMount`, `componentDidUpdate`, and `com
 
 In our case, we want our component to continually update to show the time so we use setTimeout inside our effect. After the timeout calls the callback, it updates the state. After that render happens, it schedules another effect to happen, hence why it continues to update. You could provide a second parameter of `[]` to `useEffect` (after the function) which would make it only update once. This second array is a list of dependencies: only re-run this effect if one of these parameters changed. In our case, we want to run after every render so we don't give it this second parameter.
 
-[effect]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FEffect.js
+[effect]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FEffect.js

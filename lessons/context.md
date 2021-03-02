@@ -36,7 +36,7 @@ Now we're going to make all the buttons' background color in the app be governed
 
 ```javascript
 // import useState and ThemeContext
-import React, { useState } from "react";
+import { StrictMode, useState } from "react";
 import ThemeContext from "./ThemeContext";
 
 // top of App function body

@@ -16,4 +16,4 @@ Why is this useful? It can be useful for things like holding on to `setInterval`
 
 It's also useful for referencing DOM nodes directly and we'll see that a bit later in this section.
 
-[ref]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FRef.js
+[ref]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FRef.js

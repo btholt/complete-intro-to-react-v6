@@ -14,4 +14,4 @@ In this case, we're using a new feature of React called `React.memo`. This is si
 
 Try removing the useCallback call and see if you get the the count to 40+ that the page crawls as it updates every second.
 
-[callback]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FCallback.js
+[callback]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FCallback.js

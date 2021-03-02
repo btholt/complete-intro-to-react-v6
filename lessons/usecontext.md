@@ -16,4 +16,4 @@ In general, context adds a decent amount of complexity to an app. A bit of prop 
 
 Often you'll use context instead of Redux or another state store. You could get fancy and use `useReducer` and `useContext` together to get a pretty great approximation of Redux-like features.
 
-[context]: https://codesandbox.io/s/github/btholt/react-hooks-examples/tree/master/?module=%2Fsrc%2FContext.js
+[context]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FContext.js
