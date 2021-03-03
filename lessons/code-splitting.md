@@ -3,7 +3,7 @@ title: "Code Splitting"
 path: "/code-splitting"
 order: "11A"
 description: ""
-section: "Advance React Tooling"
+section: "Code Splitting"
 ---
 
 > Please start with a fresh copy of this app: [Adopt Me!][app]
