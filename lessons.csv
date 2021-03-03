@@ -35,3 +35,6 @@ path,title,order,section,description
 "/uselayouteffect","useLayoutEffect","9H","Hooks in Depth",
 "/useimperativehandle","useImperativeHandle","9I","Hooks in Depth",
 "/usedebugvalue","useDebugValue","9J","Hooks in Depth",
+"/code-splitting","Code Splitting","11A","Code Splitting",
+"/server-side-rendering","Server Side Rendering","12A","Server Side Rendering",
+"/streaming-markup","Streaming Markup","12A","Server Side Rendering",
