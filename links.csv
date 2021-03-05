@@ -38,3 +38,7 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 11A,Code Splitting,https://github.com/btholt/citr-v6-project/tree/master/12-portals-and-refs,https://github.com/btholt/citr-v6-project/tree/master/code-splitting,,,,,,,,,,,,,,,,
 12A,Server Side Rendering,https://github.com/btholt/citr-v6-project/tree/master/12-portals-and-refs,https://github.com/btholt/citr-v6-project/tree/master/server-side-rendering-1,,,,,,,,,,,,,,,,
 12A,Streaming Markup,https://github.com/btholt/citr-v6-project/tree/master/server-side-rendering-2,,,,,,,,,,,,,,,,,
+13A,Modal,https://github.com/btholt/citr-v6-project/tree/master/12-portals-and-refs,https://frontendmasters.com/courses/typescript-v2/,,,,,,,,,,,,,,,,
+13B,TypeScript + ESLint,https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules,https://github.com/btholt/citr-v6-project/tree/master/typescript-1,,,,,,,,,,,,,,,,
+13B,ThemeContext,,,,,,,,,,,,,,,,,,
+13C,Details,https://github.com/btholt/citr-v6-project/tree/master/typescript-2,,,,,,,,,,,,,,,,,

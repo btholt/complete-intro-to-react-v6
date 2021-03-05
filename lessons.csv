@@ -38,3 +38,7 @@ path,title,order,section,description
 "/code-splitting","Code Splitting","11A","Code Splitting",
 "/server-side-rendering","Server Side Rendering","12A","Server Side Rendering",
 "/streaming-markup","Streaming Markup","12A","Server Side Rendering",
+"/ts-modal","Modal","13A","TypeScript",
+"/ts-eslint","TypeScript + ESLint","13B","TypeScript",
+"/ts-theme-context","ThemeContext","13B","TypeScript","Brian quickly converts ThemeContext.tsx"
+"/ts-details","Details","13C","TypeScript","Brian quickly converts Details.tsx"
