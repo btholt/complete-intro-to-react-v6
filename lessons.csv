@@ -1,51 +1,57 @@
-path,title,order,section,description
-"/intro","Introduction","1A","Welcome","Brian Holt introduces you to himself, the Complete Intro to React version 6, and what you can expect to learn"
-"/pure-react","Pure React","2A","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
-"/components","Components","2B","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
-"/npm","npm","3A","JS Tools","When putting any sort of JavaScript project together, npm is an essential tool. Brian talks about how to get started with npm."
-"/prettier","Prettier","3B","JS Tools","Brian talks about his favorite JS tool, Prettier, a tool that that helps you maintain consistent code style with no work on the dev's part."
-"/eslint","ESLint","3C","JS Tools","An essential part of maintaining a project a long time is discipline in coding standards and avoiding antipatterns. ESLint is a great tool that helps you do just that."
-"/git","Git","3D","JS Tools","Git is a critical part of any JS project and Brian makes sure you have it set up."
-"/parcel","Parcel","3E","JS Tools","Setting up a build process has historically been a big barrier to entry for most developers. Brian shows you how to set up Parcel which makes the whole process a breeze."
-"/babel","Babel","3F","JS Tools","Typically Parcel handles all of your Babel needs out-of-the-box but the pet app project needs one specific transformation. Brian demonstrates how to set up a new Babel configuration."
-"/browserlist","Browserlist","3G","JS Tools","Babel transforms your JS code from futuristic code to code that is understandable by older browsers. Via a package called browserslist (which Parcel installed for you) you can Babel what browsers to target."
-"/jsx","JSX","4A","Core React Concepts","JSX is an essential part of writing React. Brian teaches you to leverage your newfound React knowledge and make it much easier to read with JSX"
-"/hooks","Hooks","4B","Core React Concepts","React manages view state through a mechanism called hooks. Brian teaches you how to use them as you build components."
-"/useeffect","useEffect","4C","Core React Concepts","useEffect is a criticl hook for React, allowing developers to do asynchronous actions like making HTTP requests"
-"/custom-hooks","Custom Hooks","4D","Core React Concepts","You can even make your own hooks! Brian shows how to extract logic out of a component to share a hook across components!"
-"/handling-user-input","Handling User Input","4E","Core React Concepts","Brian shows how to wire up your app to work with users interacting with the site."
-"/component-composition","Component Composition","4F","Core React Concepts","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
-"/react-dev-tools","React Dev Tools","4G","Core React Concepts","An essential tool in any React developer's toolbox is the official React Dev Tools extension. Brian shows you how to install and use them."
-"/react-router","React Router","5A","React Capabilities","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
-"/class-components","Class Components","5B","React Capabilities","While many components are written with hooks, the older API of class-based components are still around and still useful. Brian shows you when and how to use the class components API."
-"/class-properties","Class Properties","5C","React Capabilities","Using constructors to set initial state for class components is verbose and can be done better. Brian teaches you to use the new feature in JavaScript, class properties, to make your code easy to read."
-"/managing-state-in-class-components","Managing State in Class Components","5D","React Capabilities","Class components work a little different from hooks in terms of marshalling state. Brian teaches you how to manage your state using setState and life cycle methods."
-"/error-boundaries","Error Boundaries","6A","Special Case React Tools",
-"/context","Context","6B","Special Case React Tools",
-"/portals-and-refs","Portals and Refs","6C","Special Case React Tools",
-"/conclusion","Conclusion of Complete Intro to React","7A","End of Intro","A quick note and congratulations from Brian for completing the Complete Intro to React v6!"
-"/intermediate-react-v3","Welcome","8A","Intermediate React v3","Brian introduces you to Intermediate React v3 and explains how the course is structured."
-"/usestate","useState","9A","Hooks in Depth",
-"/useeffect-2","useEffect","9B","Hooks in Depth",
-"/usecontext","useContext","9C","Hooks in Depth",
-"/useref","useRef","9D","Hooks in Depth",
-"/usereducer","useReducer","9E","Hooks in Depth",
-"/usememo","useMemo","9F","Hooks in Depth","useMemo memoizes expensive function calls so they only are re-evaluated when needed."
-"/usecallback","useCallback","9G","Hooks in Depth","useCallback is quite similar and indeed it's implemented with the same mechanisms as useMemo except it's a callback instead of a value"
-"/uselayouteffect","useLayoutEffect","9H","Hooks in Depth",
-"/useimperativehandle","useImperativeHandle","9I","Hooks in Depth",
-"/usedebugvalue","useDebugValue","9J","Hooks in Depth",
-"/code-splitting","Code Splitting","11A","Code Splitting",
-"/server-side-rendering","Server Side Rendering","12A","Server Side Rendering",
-"/streaming-markup","Streaming Markup","12A","Server Side Rendering",
-"/ts-modal","Modal","13A","TypeScript",
-"/ts-eslint","TypeScript + ESLint","13B","TypeScript",
-"/ts-theme-context","ThemeContext","13C","TypeScript","Brian quickly converts ThemeContext.tsx"
-"/ts-details","Details","13D","TypeScript","Brian quickly converts Details.tsx"
-"/ts-error-boundary","ErrorBoundary","13E","TypeScript","Brian quickly converts ErrorBoundary.tsx"
-"/ts-carousel","Carousel","13F","TypeScript","Brian quickly converts Carousel.tsx"
-"/ts-pet","Pet","13G","TypeScript","Brian quickly converts Pet.tsx"
-"/ts-usebreedlist","useBreedList","13H","TypeScript","Brian quickly converts useBreedList.tsx"
-"/ts-searchParams","SearchParams","13I","TypeScript","Brian quickly converts SearchParams.tsx"
-"/ts-results","Results","13J","TypeScript","Brian quickly converts Results.tsx"
-"/ts-app","App","13K","TypeScript","Brian quickly converts App.tsx and wraps up"
+title,path,order,section,description
+"Introduction","/intro","1A","Welcome","Brian Holt introduces you to himself, the Complete Intro to React version 6, and what you can expect to learn"
+"Pure React","/pure-react","2A","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
+"Components","/components","2B","No Frills React","Brian teaches React without any frills: just you, some JavaScript, and the browser. No build step."
+"npm","/npm","3A","JS Tools","When putting any sort of JavaScript project together, npm is an essential tool. Brian talks about how to get started with npm."
+"Prettier","/prettier","3B","JS Tools","Brian talks about his favorite JS tool, Prettier, a tool that that helps you maintain consistent code style with no work on the dev's part."
+"ESLint","/eslint","3C","JS Tools","An essential part of maintaining a project a long time is discipline in coding standards and avoiding antipatterns. ESLint is a great tool that helps you do just that."
+"Git","/git","3D","JS Tools","Git is a critical part of any JS project and Brian makes sure you have it set up."
+"Parcel","/parcel","3E","JS Tools","Setting up a build process has historically been a big barrier to entry for most developers. Brian shows you how to set up Parcel which makes the whole process a breeze."
+"Babel","/babel","3F","JS Tools","Typically Parcel handles all of your Babel needs out-of-the-box but the pet app project needs one specific transformation. Brian demonstrates how to set up a new Babel configuration."
+"Browserlist","/browserlist","3G","JS Tools","Babel transforms your JS code from futuristic code to code that is understandable by older browsers. Via a package called browserslist (which Parcel installed for you) you can Babel what browsers to target."
+"JSX","/jsx","4A","Core React Concepts","JSX is an essential part of writing React. Brian teaches you to leverage your newfound React knowledge and make it much easier to read with JSX"
+"Hooks","/hooks","4B","Core React Concepts","React manages view state through a mechanism called hooks. Brian teaches you how to use them as you build components."
+"useEffect","/useeffect","4C","Core React Concepts","useEffect is a criticl hook for React, allowing developers to do asynchronous actions like making HTTP requests"
+"Custom Hooks","/custom-hooks","4D","Core React Concepts","You can even make your own hooks! Brian shows how to extract logic out of a component to share a hook across components!"
+"Handling User Input","/handling-user-input","4E","Core React Concepts","Brian shows how to wire up your app to work with users interacting with the site."
+"Component Composition","/component-composition","4F","Core React Concepts","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
+"React Dev Tools","/react-dev-tools","4G","Core React Concepts","An essential tool in any React developer's toolbox is the official React Dev Tools extension. Brian shows you how to install and use them."
+"React Router","/react-router","5A","React Capabilities","One component should do one thing. Brian shows you how to break down bigger components into smaller components."
+"Class Components","/class-components","5B","React Capabilities","While many components are written with hooks, the older API of class-based components are still around and still useful. Brian shows you when and how to use the class components API."
+"Class Properties","/class-properties","5C","React Capabilities","Using constructors to set initial state for class components is verbose and can be done better. Brian teaches you to use the new feature in JavaScript, class properties, to make your code easy to read."
+"Managing State in Class Components","/managing-state-in-class-components","5D","React Capabilities","Class components work a little different from hooks in terms of marshalling state. Brian teaches you how to manage your state using setState and life cycle methods."
+"Error Boundaries","/error-boundaries","6A","Special Case React Tools",
+"Context","/context","6B","Special Case React Tools",
+"Portals and Refs","/portals-and-refs","6C","Special Case React Tools",
+"Conclusion of Complete Intro to React","/conclusion","7A","End of Intro","A quick note and congratulations from Brian for completing the Complete Intro to React v6!"
+"Welcome","/intermediate-react-v3","8A","Intermediate React v3","Brian introduces you to Intermediate React v3 and explains how the course is structured."
+"useState","/usestate","9A","Hooks in Depth",
+"useEffect","/useeffect-2","9B","Hooks in Depth",
+"useContext","/usecontext","9C","Hooks in Depth",
+"useRef","/useref","9D","Hooks in Depth",
+"useReducer","/usereducer","9E","Hooks in Depth",
+"useMemo","/usememo","9F","Hooks in Depth","useMemo memoizes expensive function calls so they only are re-evaluated when needed."
+"useCallback","/usecallback","9G","Hooks in Depth","useCallback is quite similar and indeed it's implemented with the same mechanisms as useMemo except it's a callback instead of a value"
+"useLayoutEffect","/uselayouteffect","9H","Hooks in Depth",
+"useImperativeHandle","/useimperativehandle","9I","Hooks in Depth",
+"useDebugValue","/usedebugvalue","9J","Hooks in Depth",
+"Code Splitting","/code-splitting","11A","Code Splitting",
+"Server Side Rendering","/server-side-rendering","12A","Server Side Rendering",
+"Streaming Markup","/streaming-markup","12A","Server Side Rendering",
+"Modal","/ts-modal","13A","TypeScript",
+"TypeScript + ESLint","/ts-eslint","13B","TypeScript",
+"ThemeContext","/ts-theme-context","13C","TypeScript","Brian quickly converts ThemeContext.tsx"
+"Details","/ts-details","13D","TypeScript","Brian quickly converts Details.tsx"
+"ErrorBoundary","/ts-error-boundary","13E","TypeScript","Brian quickly converts ErrorBoundary.tsx"
+"Carousel","/ts-carousel","13F","TypeScript","Brian quickly converts Carousel.tsx"
+"Pet","/ts-pet","13G","TypeScript","Brian quickly converts Pet.tsx"
+"useBreedList","/ts-usebreedlist","13H","TypeScript","Brian quickly converts useBreedList.tsx"
+"SearchParams","/ts-searchParams","13I","TypeScript","Brian quickly converts SearchParams.tsx"
+"Results","/ts-results","13J","TypeScript","Brian quickly converts Results.tsx"
+"App","/ts-app","13K","TypeScript","Brian quickly converts App.tsx and wraps up"
+"Getting Started","/redux-getting-started","14A","Redux",
+"Reducers","/reducers","14B","Redux",
+"Action Creators","/action-creators","14D","Redux",
+"Providers","/providers","14E","Redux",
+"Dispatching Actions","/dispatching-actions","14F","Redux",
+"Redux Dev Tools","/redux-dev-tools","14G","Redux",
