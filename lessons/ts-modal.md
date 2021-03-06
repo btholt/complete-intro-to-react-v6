@@ -19,15 +19,14 @@ Next we need to install the types for our project. Not all projects are written 
 This is a migration: we're going to migrate one file at a time to being a TypeScript file. As we migrate each file, we'll change it from being a `.js` file to a `.tsx` file. Let's start with Modal.tsx (make sure you rename it to `.tsx`).
 
 ```typescript
-import { useEffect, useRef, ReactNode, MutableRefObject } from "react";
+import { useEffect, useRef, MutableRefObject, FunctionComponent } from "react";
 import { createPortal } from "react-dom";
 
 const modalRoot = document.getElementById("modal");
 
-const Modal = ({ children }: { children: ReactNode }) => {
+const Modal: FunctionComponent = ({ children }) => {
   const elRef: MutableRefObject<HTMLDivElement | null> = useRef(null);
   if (!elRef.current) {
-    const x = document.createElement("div");
     elRef.current = document.createElement("div");
   }
 

@@ -1,7 +1,7 @@
 ---
 title: "ThemeContext"
 path: "/ts-theme-context"
-order: "13B"
+order: "13C"
 section: "TypeScript"
 description: "Brian quickly converts ThemeContext.tsx"
 ---
