@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Complete Intro to React",
-    subtitle: "v6",
+    title: "Complete Intro to React v6",
+    subtitle: "& Intermediate React v3",
     description:
       "Brian Holt breaks down React into the most low level principles so that you can understand your whole stack, from front to back",
     keywords: [
