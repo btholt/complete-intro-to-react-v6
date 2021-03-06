@@ -40,5 +40,12 @@ path,title,order,section,description
 "/streaming-markup","Streaming Markup","12A","Server Side Rendering",
 "/ts-modal","Modal","13A","TypeScript",
 "/ts-eslint","TypeScript + ESLint","13B","TypeScript",
-"/ts-theme-context","ThemeContext","13B","TypeScript","Brian quickly converts ThemeContext.tsx"
-"/ts-details","Details","13C","TypeScript","Brian quickly converts Details.tsx"
+"/ts-theme-context","ThemeContext","13C","TypeScript","Brian quickly converts ThemeContext.tsx"
+"/ts-details","Details","13D","TypeScript","Brian quickly converts Details.tsx"
+"/ts-error-boundary","ErrorBoundary","13E","TypeScript","Brian quickly converts ErrorBoundary.tsx"
+"/ts-carousel","Carousel","13F","TypeScript","Brian quickly converts Carousel.tsx"
+"/ts-pet","Pet","13G","TypeScript","Brian quickly converts Pet.tsx"
+"/ts-usebreedlist","useBreedList","13H","TypeScript","Brian quickly converts useBreedList.tsx"
+"/ts-searchParams","SearchParams","13I","TypeScript","Brian quickly converts SearchParams.tsx"
+"/ts-results","Results","13J","TypeScript","Brian quickly converts Results.tsx"
+"/ts-app","App","13K","TypeScript","Brian quickly converts App.tsx and wraps up"
