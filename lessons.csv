@@ -55,3 +55,8 @@ title,path,order,section,description
 "Providers","/providers","14E","Redux",
 "Dispatching Actions","/dispatching-actions","14F","Redux",
 "Redux Dev Tools","/redux-dev-tools","14G","Redux",
+"Intro to Testing React","/testing-react","15A","Testing",
+"Basic React Testing","/basic-react-testing","15B","Testing",
+"Testing UI Interactions","/testing-ui-interactions","15C","Testing",
+"Mocks","/mocks","15D","Testing",
+"Snapshots","/snapshots","15E","Testing",
