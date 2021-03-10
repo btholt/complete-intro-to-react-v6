@@ -24,6 +24,7 @@ title,path,order,section,description
 "Context","/context","6B","Special Case React Tools",
 "Portals and Refs","/portals-and-refs","6C","Special Case React Tools",
 "Conclusion of Complete Intro to React","/conclusion","7A","End of Intro","A quick note and congratulations from Brian for completing the Complete Intro to React v6!"
+"Ways to Expand on this Project","/ways-to-expand-your-app","7B","End of Intro","If you want to improve this app and have some more practice with React, here are some ideas for you!"
 "Welcome","/intermediate-react-v3","8A","Intermediate React v3","Brian introduces you to Intermediate React v3 and explains how the course is structured."
 "useState","/usestate","9A","Hooks in Depth",
 "useEffect","/useeffect-2","9B","Hooks in Depth",
