@@ -43,7 +43,7 @@ title,path,order,section,description
 "Positioning","/positioning","10E","TailwindCSS",
 "Code Splitting","/code-splitting","11A","Code Splitting",
 "Server Side Rendering","/server-side-rendering","12A","Server Side Rendering",
-"Streaming Markup","/streaming-markup","12A","Server Side Rendering",
+"Streaming Markup","/streaming-markup","12B","Server Side Rendering",
 "Modal","/ts-modal","13A","TypeScript",
 "TypeScript + ESLint","/ts-eslint","13B","TypeScript",
 "ThemeContext","/ts-theme-context","13C","TypeScript","Brian quickly converts ThemeContext.tsx"
