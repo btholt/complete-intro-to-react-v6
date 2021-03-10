@@ -19,8 +19,7 @@ In App.js, put this:
 <div
   className="p-0 m-0"
   style={{
-    background:
-      "url(https://petapiv2.blob.core.windows.net/pets/wallpaperA.jpg)",
+    background: "url(http://pets-images.dev-apis.com/pets/wallpaperA.jpg)",
   }}
 >
   […]

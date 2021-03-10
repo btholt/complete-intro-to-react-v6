@@ -23,7 +23,7 @@ class Details extends Component {
 
   async componentDidMount() {
     const res = await fetch(
-      `https://pet-api-v2.azurewebsites.net/api/pets?id=${this.props.match.params.id}`
+      `http://pets-v2.dev-apis.com/pets?id=${this.props.match.params.id}`
     );
     const json = await res.json();
     this.setState(Object.assign({ loading: false }, json.pets[0]));
@@ -61,3 +61,11 @@ export default withRouter(Details);
   - `this.state` is the mutable state of the component (like useState). You'll use `this.setState` to mutate it (don't modify it directly.)
   - `this.props` comes from the parent component, similar to parameter given to the render functions that we pull props out of.
 - `withRouter()` is called a higher order component and is a bit of an advance concept. Basically we're composing functionality into our component via react-router. Think of `useParams`: it mixes in functionality from react-router by calling a hook. This is how you get that custom hook behavior of mixing in library functionality with class components. Redux does this too, but otherwise it's not overly common.
+
+## Other lifecycle methods
+
+This class doesn't cover all the lifecycle methods but you can imagine having different timings for different capabilities of a component can be useful. For example, if you have a set of props that come in and you need to filter those props before you display them, you can use `getDerivedStateFromProps`. Or if you need to react to your component being removed from the DOM (like if you're subscribing to an API and you need to dispose of the subscription) you can use `componentWillUnmount`.
+
+There are lots more you can check out in [the React docs here][docs].
+
+[docs]: https://reactjs.org/docs/react-component.html

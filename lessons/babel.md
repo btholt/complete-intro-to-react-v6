@@ -6,7 +6,7 @@ section: "JS Tools"
 description: "Typically Parcel handles all of your Babel needs out-of-the-box but the pet app project needs one specific transformation. Brian demonstrates how to set up a new Babel configuration."
 ---
 
-Babel is ##TODO
+Babel is a core part of the JavaScript tooling ecosystem. At its core it is a transpilation tool: it takes that looks one way and transforms it it into a different looking set of code. One of its core uses to transform futuristic JavaScript (like ES2021) to an older version of JavaScript (like ES5 i.e. JavaScript before 2015) so that older browsers can use your newer JavaScript. Babel also handles things like JSX for us and it can handle TypeScript too.
 
 Typically Parcel handles 100% of your Babel needs and you don't have to care at all what's going on underneath the hood; its Babel config is well crafted and fits nearly all needs. Its one issue is that it can be slow to update when new capabilities come online and that's why here we're going to modify it a bit.
 

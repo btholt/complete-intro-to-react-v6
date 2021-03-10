@@ -19,7 +19,7 @@ class Carousel extends Component {
   };
 
   static defaultProps = {
-    images: ["https://petapiv2.blob.core.windows.net/pets/none.jpg"],
+    images: ["http://pets-images.dev-apis.com/pets/none.jpg"],
   };
 
   render() {

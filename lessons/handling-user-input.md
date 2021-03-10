@@ -23,4 +23,6 @@ const [pets, setPets] = useState([]);
 
 Now you should be able to see the network request go out whenever you submit the form.
 
-## TODO Larger diatribe on interacting with the DOM
+This course isn't going into all the ways of handling user interactions in JavaScript. You can register handlers for things mouse leave, mouse enter, key up, key down, and can even handle stuff like copy and paste events, focus, blur, etc. [Here's a list of them from the React docs][docs].
+
+[docs]: https://reactjs.org/docs/events.html#supported-events
