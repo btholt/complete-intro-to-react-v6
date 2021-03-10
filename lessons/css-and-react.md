@@ -54,3 +54,4 @@ Now if you run your app you should the React app (and all the functionality shou
 [tw]: https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
 [sc]: https://btholt.github.io/complete-intro-to-react/
 [emotion]: https://btholt.github.io/complete-intro-to-react-v5/emotion
+[tailwind]: https://tailwindcss.com/docs

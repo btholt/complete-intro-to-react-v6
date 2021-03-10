@@ -1,7 +1,7 @@
 ---
 title: "Streaming Markup"
 path: "/streaming-markup"
-order: "12A"
+order: "12B"
 description: ""
 section: "Server Side Rendering"
 ---

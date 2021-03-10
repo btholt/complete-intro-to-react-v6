@@ -123,6 +123,10 @@ app.listen(PORT);
 
 Run `npm run start` and then open http://localhost:3000 to see your server side rendered app. Notice it displays markup almost instantly.
 
+## .gitignore
+
+Make sure you add `dist-server/` to your .gitignore here. We don't want to commit built code.
+
 > 🏁 [Click here to see the state of the project up until now: server-side-rendering-1][step]
 
 [step]: https://github.com/btholt/citr-v6-project/tree/master/server-side-rendering-1

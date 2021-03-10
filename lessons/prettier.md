@@ -10,8 +10,6 @@ description: "Brian talks about his favorite JS tool, Prettier, a tool that that
 
 It's important to keep quality high when writing code. Or at least that's how I sell ESLint and Prettier to my co-workers. In reality I'm super lazy and want the machine to do as much work as possible so I can focus more on architecture and problem-solving and less on syntax and style. While there are many tools that can help you keep code quality high, these two I consider core to my workflow.
 
-## Prettier
-
 [Prettier][prettier] is an amazing tool from the brain of [James Long][jlongster]. James, like many of us, was sick of having to constantly worry about the style of his code: where to stick indents, how many, when to break lines, etc etc. Coming from languages like Go, Reason, or Elm where all that is just taken care of by the tooling for the language, this quickly wears. James did something about it and made a tool to take care of it: Prettier.
 
 Prettier is a really fancy pretty printer. It takes the code you write, breaks it down in to an abstract syntax tree (AST) which is just a representation of your code. It then takes that AST, throws away all of your code style you made and prints it back out using a predefined style. While this sounds a little scary, it's actually really cool. Since you no longer have control of the style of your code, you no longer have to think about it at all. Your code is always consistent, as is the code from the rest of your team. No more bikeshedding!! As I like to put it: if your brain is a processor, you get to free up the thread of your brain that worries about code styles and readability: it just happens for you. Don't like semicolons? Don't write them! It puts them in for you. I _love_ Prettier.

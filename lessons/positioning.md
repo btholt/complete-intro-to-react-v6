@@ -26,7 +26,7 @@ Let's make Pet.js look great with a nice little overlay of their name, animal, b
 - The `bg-gradient-to-tr from-white to-transparent` gives us a fun little white-to-transparent gradient so it makes it easier to read the name tag.
 - `pr-2 pt-2` is a little right and top padding to extend the gradient.
 
-> 🚨 We did not do Details.js. I leave this an exercise to you!
+> 🚨 We did not do Details.js. I leave this as an exercise to you!
 
 > 🏁 [Click here to see the state of the project up until now: tailwind][step]
 

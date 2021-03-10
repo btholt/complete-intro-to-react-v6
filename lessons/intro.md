@@ -49,6 +49,7 @@ Catch up with me on social media! I'll be honest: I'm not great at responding at
 - [Twitter][twitter]
 - [LinkedIn][linkedin]
 - [GitHub][github]
+- [Peloton][pelo] (you have to be a member and signed in for this link to work)
 
 And one last request! [Please star this repo][site]. It helps the course be more discoverable and with my fragile ego.
 
@@ -58,9 +59,11 @@ There are two repos for this class: [the website you're currently on][site] and 
 
 Every step of this project will have a folder that will be a snapshot of where the project is at that step. If you get stuck, want to copy/paste some long bit of code you don't feel like writing, or just want to walk through the code at that point, please do! The primary goal of this is for you to learn so as long as you're learning there's no cheating!
 
-The naming format will be `step-XX-<name of the lesson>` so you can get a rough idea of order and which lesson the step is coming from. In each snapshot you'll have to run `npm install` again since it'll literally just be another whole copy of the project.
+The naming format will be `XX-<name of the lesson>` so you can get a rough idea of order and which lesson the step is coming from. In each snapshot you'll have to run `npm install` again since it'll literally just be another whole copy of the project.
 
-[twitter]: https://twitter.come/holtbt
+For the Intermediate classes they're just called `<section>` since most of them don't have steps. The ones that do are `<section>-X`.
+
+[twitter]: https://twitter.com/holtbt
 [bootcamp]: https://frontendmasters.com/bootcamp/
 [nvm]: https://github.com/nvm-sh/nvm
 [vsc]: https://code.visualstudio.com/
@@ -77,3 +80,5 @@ The naming format will be `step-XX-<name of the lesson>` so you can get a rough 
 [gh]: https://btholt.github.io/complete-intro-to-react-v6/
 [projects]: https://github.com/btholt/citr-v6-project
 [site]: https://github.com/btholt/complete-intro-to-react-v6
+[tweet]: https://twitter.com/holtbt/status/493852312604254208
+[pelo]: https://members.onepeloton.com/members/btholt/overview

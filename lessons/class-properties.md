@@ -14,7 +14,7 @@ Since we're going to take ahold of our own Babel configuration, we need to take 
 npm i -D @babel/plugin-proposal-class-properties@7.13.0 @babel/preset-env@7.13.5 @babel/eslint-parser@7.13.4
 ```
 
-Now make a file called `.babelrc` with the following:
+Now modify your `.babelrc` with the following:
 
 ```json
 {
