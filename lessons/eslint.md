@@ -16,7 +16,7 @@ Create this file called `.eslintrc.json`.
 
 ```json
 {
-  "extends": ["eslint:recommended", "prettier", "prettier/react"],
+  "extends": ["eslint:recommended", "prettier"],
   "plugins": [],
   "parserOptions": {
     "ecmaVersion": 2021,
