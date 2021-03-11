@@ -45,7 +45,7 @@ Now open this file in your browser. On Mac, hit ⌘ (command) + O in your favori
   - The second library is the rendering layer. Since we're rendering to the browser, we're using React DOM. There are other React libraries like React Native, React 360 (formerly React VR), A-Frame React, React Blessed, and others. You need both script tags. The order is not important.
 - The last script tag is where we're going to put our code. You don't typically do this but I wanted to start as simple as possible. This script tag must come _after_ the other two.
 
-> Let's add some style! [Click here][style] to get the stylesheet for this courese. If you follow along with the course and use the same class names, the styles will be applied for you automatically. This isn't a course on CSS so I make no assertion it's any good!
+> Let's add some style! [Click here][style] to get the stylesheet for this course. If you follow along with the course and use the same class names, the styles will be applied for you automatically. This isn't a course on CSS so I make no assertion it's any good!
 
 In the last script tag, put the following.
 
