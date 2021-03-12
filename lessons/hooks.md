@@ -77,7 +77,7 @@ Let's add the ESLint rule. Run `npm install -D eslint-plugin-react-hooks@4.2.0`.
 
 ```json
 {
-  "presets": [
+  "extends": [
     …
     "plugin:react-hooks/recommended",
     …
@@ -85,7 +85,7 @@ Let's add the ESLint rule. Run `npm install -D eslint-plugin-react-hooks@4.2.0`.
 }
 ```
 
-> The order of presets isn't particularly important to us _except_ the Prettier ones _must_ be last. Those serve to turn off rules the others ones enable.
+> The order of extends isn't particularly important to us _except_ the Prettier ones _must_ be last. Those serve to turn off rules the others ones enable.
 
 Let's next make the animal drop down.
 
