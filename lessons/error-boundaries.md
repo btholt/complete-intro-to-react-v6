@@ -28,10 +28,10 @@ class ErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       return (
-        <h1>
+        <h2>
           There was an error with this listing. <Link to="/">Click here</Link>{" "}
           to back to the home page or wait five seconds.
-        </h1>
+        </h2>
       );
     }
 
@@ -74,7 +74,7 @@ Let's make it redirect automatically after five seconds. We could do a set timeo
 import { Link, Redirect } from "react-router-dom";
 
 // add redirect
-this.state = { hasError: false, redirect: false };
+state = { hasError: false, redirect: false };
 
 // under componentDidCatch
 componentDidUpdate() {
