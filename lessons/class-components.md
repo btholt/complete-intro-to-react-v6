@@ -6,7 +6,7 @@ section: "React Capabilities"
 description: "While many components are written with hooks, the older API of class-based components are still around and still useful. Brian shows you when and how to use the class components API."
 ---
 
-This class has been showing you the latest APIs for React: hooks. Going forward, these sorts of components will be the default way of writing React going forward. However, the class API still has its uses and isn't going anywhere anytime soon. In this section we're going to go through and learn the basics of it since there's still a lot class code out in the wild and the new API can't do _everything_ the old one can, so it's still useful in some cases.
+This class has been showing you the latest APIs for React: hooks. Going forward, these sorts of components will be the default way of writing React. However, the class API still has its uses and isn't going anywhere anytime soon. In this section we're going to go through and learn the basics of it since there's still a lot class code out in the wild and the new API can't do _everything_ the old one can, so it's still useful in some cases.
 
 Let's go make Details.js as a class.
 
