@@ -1,6 +1,6 @@
 ---
-path: "/browserlist"
-title: "Browserlist"
+path: "/browserslist"
+title: "Browserslist"
 order: "3G"
 section: "JS Tools"
 description: "Babel transforms your JS code from futuristic code to code that is understandable by older browsers. Via a package called browserslist (which Parcel installed for you) you can Babel what browsers to target."
