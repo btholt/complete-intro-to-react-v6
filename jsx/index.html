@@ -75,7 +75,7 @@
 <p>However, now you know <em>what</em> JSX is doing for you. It's just translating those HTML tags into <code class="language-text">React.createElement</code> calls. <em>That's it.</em> Really. No more magic here. JSX does nothing else. Many people who learn React don't learn this.</p>
 <p>Notice the strange <code class="language-text">{props.name}</code> syntax: this is how you output JavaScript expressions in JSX. An expression is anything that can be the right side of an assignment operator in JavaScript, e.g. <code class="language-text">const x = &lt;anything that can go here&gt;</code>. If you take away the <code class="language-text">{}</code> it will literally output <code class="language-text">props.name</code> to the DOM.</p>
 <blockquote>
-<p>Notice we don't have to do <code class="language-text">import React from &#39;react&#39;</code> here like we used to. The latest version of JSX handles that for you so you only need to explicitly import the React package when you need to use something from it; otherwise feel free to do JSX with having to import React!</p>
+<p>Notice we don't have to do <code class="language-text">import React from &#39;react&#39;</code> here like we used to. The latest version of JSX handles that for you so you only need to explicitly import the React package when you need to use something from it; otherwise feel free to do JSX without having to import React!</p>
 </blockquote>
 <p>Notice you still have to import React despite React not being explicitly used. Remember that JSX is compiled to <code class="language-text">React.createElement</code> calls. Anywhere you use JSX, you need to import React.</p>
 <p>So now JSX is demystified a bit, let's go convert App.js.</p>
