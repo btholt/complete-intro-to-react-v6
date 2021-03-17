@@ -71,10 +71,10 @@
   <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>hasError<span class="token punctuation">)</span> <span class="token punctuation">{</span>
       <span class="token keyword">return</span> <span class="token punctuation">(</span>
-        <span class="token operator">&lt;</span>h1<span class="token operator">></span>
+        <span class="token operator">&lt;</span>h2<span class="token operator">></span>
           There was an error <span class="token keyword">with</span> <span class="token keyword">this</span> listing<span class="token punctuation">.</span> <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">"/"</span><span class="token operator">></span>Click here<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">></span><span class="token punctuation">{</span><span class="token string">" "</span><span class="token punctuation">}</span>
           to back to the home page or wait five seconds<span class="token punctuation">.</span>
-        <span class="token operator">&lt;</span><span class="token operator">/</span>h1<span class="token operator">></span>
+        <span class="token operator">&lt;</span><span class="token operator">/</span>h2<span class="token operator">></span>
       <span class="token punctuation">)</span><span class="token punctuation">;</span>
     <span class="token punctuation">}</span>
 
@@ -111,7 +111,7 @@
 <span class="token keyword">import</span> <span class="token punctuation">{</span> Link<span class="token punctuation">,</span> Redirect <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">"react-router-dom"</span><span class="token punctuation">;</span>
 
 <span class="token comment">// add redirect</span>
-<span class="token keyword">this</span><span class="token punctuation">.</span>state <span class="token operator">=</span> <span class="token punctuation">{</span> hasError<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> redirect<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
+state <span class="token operator">=</span> <span class="token punctuation">{</span> hasError<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span> redirect<span class="token operator">:</span> <span class="token boolean">false</span> <span class="token punctuation">}</span><span class="token punctuation">;</span>
 
 <span class="token comment">// under componentDidCatch</span>
 <span class="token function">componentDidUpdate</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
