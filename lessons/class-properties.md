@@ -6,7 +6,7 @@ section: "React Capabilities"
 description: "Using constructors to set initial state for class components is verbose and can be done better. Brian teaches you to use the new feature in JavaScript, class properties, to make your code easy to read."
 ---
 
-The constructor is annoying. We can use something called class properties to make it a lot nicer and easier to ready. Class properties are a new part of JavaScript so we need Parcel transform the code when Parcel transpiles our code. Luckily our config will do that by itself so no further changes are needed (previously we did need to.)
+The constructor is annoying. We can use something called class properties to make it a lot nicer and easier to read. Class properties are a new part of JavaScript so we need Parcel transform the code when Parcel transpiles our code. Luckily our config will do that by itself so no further changes are needed (previously we did need to.)
 
 Since we're going to take ahold of our own Babel configuration, we need to take over _all of it_. Parcel won't do it for us anymore. So install the following:
 
