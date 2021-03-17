@@ -109,14 +109,14 @@
 </ul>
 <p>Let's add the ESLint rule. Run <code class="language-text">npm install -D eslint-plugin-react-hooks@4.2.0</code>. Add this to ESLint:</p>
 <div class="gatsby-highlight" data-language="json"><pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
-  <span class="token property">"presets"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+  <span class="token property">"extends"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
     …
     <span class="token string">"plugin:react-hooks/recommended"</span><span class="token punctuation">,</span>
     …
   <span class="token punctuation">]</span>
 <span class="token punctuation">}</span></code></pre></div>
 <blockquote>
-<p>The order of presets isn't particularly important to us <em>except</em> the Prettier ones <em>must</em> be last. Those serve to turn off rules the others ones enable.</p>
+<p>The order of extends isn't particularly important to us <em>except</em> the Prettier ones <em>must</em> be last. Those serve to turn off rules the others ones enable.</p>
 </blockquote>
 <p>Let's next make the animal drop down.</p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token comment">// under the imports</span>
