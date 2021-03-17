@@ -8,7 +8,7 @@ title,path,order,section,description
 "Git","/git","3D","JS Tools","Git is a critical part of any JS project and Brian makes sure you have it set up."
 "Parcel","/parcel","3E","JS Tools","Setting up a build process has historically been a big barrier to entry for most developers. Brian shows you how to set up Parcel which makes the whole process a breeze."
 "Babel","/babel","3F","JS Tools","Typically Parcel handles all of your Babel needs out-of-the-box but the pet app project needs one specific transformation. Brian demonstrates how to set up a new Babel configuration."
-"Browserlist","/browserlist","3G","JS Tools","Babel transforms your JS code from futuristic code to code that is understandable by older browsers. Via a package called browserslist (which Parcel installed for you) you can Babel what browsers to target."
+"Browserslist","/browserslist","3G","JS Tools","Babel transforms your JS code from futuristic code to code that is understandable by older browsers. Via a package called browserslist (which Parcel installed for you) you can Babel what browsers to target."
 "JSX","/jsx","4A","Core React Concepts","JSX is an essential part of writing React. Brian teaches you to leverage your newfound React knowledge and make it much easier to read with JSX"
 "Hooks","/hooks","4B","Core React Concepts","React manages view state through a mechanism called hooks. Brian teaches you how to use them as you build components."
 "useEffect","/useeffect","4C","Core React Concepts","useEffect is a criticl hook for React, allowing developers to do asynchronous actions like making HTTP requests"
