@@ -33,10 +33,10 @@ Create a file called `.babelrc` in your home directory and put this in there:
 }
 ```
 
-> Parcel 2 is coming (and has been coming for a long time.) Once v2 lands it will be very unlikely that these steps to configure will be necessary as I imagine the "automatic" config will be the default. [Check here][releases] to see what the lateset releases are.
+> Parcel 2 is coming (and has been coming for a long time.) Once v2 lands it will be very unlikely that these steps to configure will be necessary as I imagine the "automatic" config will be the default. [Check here][releases] to see what the latest releases are.
 
 The one _additional_ thing we're setting up over what's in the project already is the `automatic` configuration for the JSX transformation. We'll talk about it in the next chapter, but it allows us to omit `import React from 'react'` at the top of every JSX file.
 
-If you needed to update a `preset-env` configuration (a semi-frequent occurence) or add another transformation, you could do that here too.
+If you needed to update a `preset-env` configuration (a semi-frequent occurrence) or add another transformation, you could do that here too.
 
 [releases]: https://github.com/parcel-bundler/parcel/releases
