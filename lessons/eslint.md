@@ -10,7 +10,7 @@ On top of Prettier which takes of all the formatting, you may want to enforce so
 
 First of all, run `npm install -D eslint eslint-config-prettier` to install eslint in your project development dependencies. Then you may configure its functionalities.
 
-There are dozens of present configs for ESLint and you're welcome to use any one of them. The [Airbnb config][airbnb] is very popular, as is the standard config (both of which I taught in previous versions of this class). I'm going to use a looser one for this class: `eslint:recommended`. Let's create an `.eslintrc.json` file to start linting our project.
+There are dozens of preset configs for ESLint and you're welcome to use any one of them. The [Airbnb config][airbnb] is very popular, as is the standard config (both of which I taught in previous versions of this class). I'm going to use a looser one for this class: `eslint:recommended`. Let's create an `.eslintrc.json` file to start linting our project.
 
 Create this file called `.eslintrc.json`.
 
