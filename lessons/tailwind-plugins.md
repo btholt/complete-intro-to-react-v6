@@ -49,4 +49,4 @@ Replace the button with:
 </button>
 ```
 
-Nothing surprisng there.
+Nothing surprising there.
