@@ -6,7 +6,7 @@ section: "Redux"
 description: ""
 ---
 
-We're not quite done here. We can got the reading part of Redux done but now the writing. Let's go do that too in SearchParams.js
+We're not quite done here. We got the reading part of Redux done but not the writing. Let's go do that too in SearchParams.js
 
 ```javascript
 import { useSelector, useDispatch } from "react-redux";
