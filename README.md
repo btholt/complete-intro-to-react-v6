@@ -1,6 +1,6 @@
 [![Complete Intro to Linux and the CLI](/lessons/images/Wordmark-XL.png)][course]
 
-[![Frontend Masters](/lessons/images/FrontendMastersLogo.png)][fem]
+[![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
 
 [Please click here][course] to head to the course website.
 
@@ -18,6 +18,6 @@ The content of this workshop is licensed under CC-BY-NC-4.0. Feel free to share 
 
 The code, including the code of the site itself and the code in the exercises, are licensed under Apache 2.0.
 
-[fem]: https://www.frontendmasters.com
+[fem]: https://frontendmasters.com/courses/complete-react-v6/
 [course]: https://bit.ly/react-6
 [project]: https://github.com/btholt/citr-v6-project/
