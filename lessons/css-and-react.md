@@ -35,6 +35,17 @@ module.exports = {
 };
 ```
 
+Now, create a `.postcssrc` file in the project root directory.
+
+```json
+{
+  "plugins": {
+    "autoprefixer": {},
+    "tailwindcss": {}
+  }
+}
+```
+
 Lastly, let's go modify our `style.css` file.
 
 ```css
