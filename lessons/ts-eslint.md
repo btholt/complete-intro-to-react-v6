@@ -6,7 +6,7 @@ section: "TypeScript"
 description: ""
 ---
 
-Let's take the time now to fix our ESLint. In previous versions of this course we used the project TSLint but that project has since been deprecated in favor of converging on ESLint. There's a project called `typscript-eslint` that bridges the gap between the two projects.
+Let's take the time now to fix our ESLint. In previous versions of this course we used the project TSLint but that project has since been deprecated in favor of converging on ESLint. There's a project called `typescript-eslint` that bridges the gap between the two projects.
 
 1. Run `npm uninstall @babel/eslint-parser`
 1. Run `npm install -D eslint-import-resolver-typescript@2.4.0 @typescript-eslint/eslint-plugin@4.16.1 @typescript-eslint/parser@4.16.1`
