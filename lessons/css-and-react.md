@@ -35,7 +35,7 @@ module.exports = {
 };
 ```
 
-Lastly, let's go modify our `style.css` file.
+Now, let's go modify our `style.css` file.
 
 ```css
 @tailwind base;
@@ -48,6 +48,16 @@ Lastly, let's go modify our `style.css` file.
 This is how we include all the things we need from Tailwind. This is what allows Tailwind to bootstrap and only include the CSS you need to make your app run.
 
 > There's a great Visual Studio Code extension you should install here: [Tailwind CSS IntelliSense][tw].
+
+Lastly, we have to create `.postcssrc` in root directory.
+
+```json
+{
+  "plugins": {
+    "autoprefixer": {},
+    "tailwindcss": {}
+  }
+}
 
 Now if you run your app you should the React app (and all the functionality should work) but it won't have any style. We're going to quickly restyle this whole app to show you how great Tailwind is and how quickly it lets you go.
 
