@@ -53,7 +53,7 @@ const dispatch = useDispatch();
 - The `useDispatch` hook gives you back a dispatching function so you can dispatch actions
 - That's really it!
 
-Now we're also using mapDispatchToState which lets us write functions to dispatch actions and thunks to Redux. Let's quickly add it to Details.js
+Now we're also using mapDispatchToState which lets us write functions to dispatch actions to Redux. Let's quickly add it to Details.js
 
 ```javascript
 // replace ThemeContext import
