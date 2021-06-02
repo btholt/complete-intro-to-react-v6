@@ -6,7 +6,7 @@ section: "Core React Concepts"
 description: "useEffect is a criticl hook for React, allowing developers to do asynchronous actions like making HTTP requests"
 ---
 
-We have enough to start making some requests now. We want the app to request an initial set of pets on initial load of the page. So let's make that happen using a special hook called `useEffect`. `useEffect` allows you to say "do a render of this component first so the user can see _something_ then as soon as the render is done, _then_ do something (the something here being an effect.) In our case, we want the user to see our UI first then we want to make a request to the API so we can that initial list of pets.
+We have enough to start making some requests now. We want the app to request an initial set of pets on initial load of the page. So let's make that happen using a special hook called `useEffect`. `useEffect` allows you to say "do a render of this component first so the user can see _something_ then as soon as the render is done, _then_ do something (the something here being an effect.) In our case, we want the user to see our UI first then we want to make a request to the API so we can show that initial list of pets.
 
 Add this to SearchParams.js
 
@@ -47,7 +47,7 @@ async function requestPets() {
 - the `[]` at the end of the useEffect is where you declare your data dependencies. React wants to know _when_ to run that effect again. You don't give it data dependencies, it assumes any time any hook changes that you should run the effect again. This is bad because that would mean any time setPets gets called it'd re-run render and all the hooks again. See a problem there? It'd run infinitely since requestPets calls setPets.
 - You can instead provide which hooks to watch for changes for. In our case, we actually only want it to run once, on creation of the component, and then to not run that effect again. (we'll do searching later via clicking the submit button) You can accomplish this only-run-on-creation by providing an empty array.
 - The `// eslint-disable-line react-hooks/exhaustive-deps` tells eslint to shut up about this one run on this one line. Why? Because eslint tries to help you with you the data dependencies rule by watching for anything that _could_ change. In this case, in theory the function could change but we know it's not important. You'll end up silencing this rule a fair bit.
-- At the end, we gather take the pets we got back from the API and create Pet components out of each of them.
+- At the end, we take the pets we got back from the API and create Pet components out of each of them.
 
 > 🏁 [Click here to see the state of the project up until now: 05-useeffect][step]
 
