@@ -6,7 +6,7 @@ section: "TailwindCSS"
 description: ""
 ---
 
-I'm going to need you to suspend everything you know about CSS best practices for this section. At the start this going to feel gross and weird. But stick with me. I initially had similar feelings towards React too.
+I'm going to need you to suspend everything you know about CSS best practices for this section. At the start this is going to feel gross and weird. But stick with me. I initially had similar feelings towards React too.
 
 We are not going to be writing _any_ CSS (well, one little bit but THAT'S IT.) Tailwind is all about just using tiny utility classes and then having that be all the CSS you ever need. Let's see something _super basic_.
 
