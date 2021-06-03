@@ -34,7 +34,7 @@ variants: {
 },
 ```
 
-This will allow our specific use case. Again, don't dig too much into this because once Parcel 2 lands or you whenever you're using PostCSS 8 this isn't a big deal.
+This will allow our specific use case. Again, don't dig too much into this because once Parcel 2 lands or whenever you're using PostCSS 8 this isn't a big deal.
 
 Now add `className="w-60 disabled:opacity-50"` to the breed `<select>`.
 
