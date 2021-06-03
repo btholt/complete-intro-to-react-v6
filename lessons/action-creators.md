@@ -29,16 +29,16 @@ export default function changeLocation(location) {
 changeAnimal.js
 
 ```javascript
-export default function changeAnimal(location) {
-  return { type: "CHANGE_ANIMAL", payload: location };
+export default function changeAnimal(animal) {
+  return { type: "CHANGE_ANIMAL", payload: animal };
 }
 ```
 
 changeLocation.js
 
 ```javascript
-export default function changeBreed(location) {
-  return { type: "CHANGE_BREED", payload: location };
+export default function changeBreed(breed) {
+  return { type: "CHANGE_BREED", payload: breed };
 }
 ```
 
