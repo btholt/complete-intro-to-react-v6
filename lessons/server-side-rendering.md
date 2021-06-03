@@ -8,7 +8,7 @@ section: "Server Side Rendering"
 
 > Please start with a fresh copy of this app: [Adopt Me!][app]
 
-Performance is a central concern for front end developers. We should always be striving to serve the leanest web apps that perform faster than humans can think. This is as much a game of psychology as it is a a technological challenge. It's a challenge of loading the correct content first so a user can see a site and begin to make a decision of what they want to do (scroll down, click a button, log in, etc.) and then be prepared for that action before they make that decision.
+Performance is a central concern for front end developers. We should always be striving to serve the leanest web apps that perform faster than humans can think. This is as much a game of psychology as it is a technological challenge. It's a challenge of loading the correct content first so a user can see a site and begin to make a decision of what they want to do (scroll down, click a button, log in, etc.) and then be prepared for that action before they make that decision.
 
 Enter server-side rendering. This is a technique where you run React on your Node.js server _before_ you serve the request to the user and send down the first rendering of your website already done. This saves precious milliseconds+ on your site because otherwise the user has to download the HTML, then download the JavaScript, then execute the JS to get the app. In this case, they'll just download the HTML and see the first rendered page while React is loading in the background.
 
@@ -16,11 +16,11 @@ While the total time to when the page is actually interactive is comparable, if 
 
 First, we need to remove all references to `window` or anything browser related from a path that _could_ be called in Node. That means whenever we reference `window`, it'll have to be inside componentDidMount since componentDidMount doesn't get called in Node.
 
-We'll also have change where our app gets rendered. Make a new file called ClientApp.js. Put in there:
+We'll also have to change where our app gets rendered. Make a new file called ClientApp.js. Put in there:
 
 ```javascript
 import { hydrate } from "react-dom";
-import { BrowserRouter, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 
 hydrate(
