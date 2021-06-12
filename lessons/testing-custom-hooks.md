@@ -29,8 +29,6 @@ function getBreedList(animal) {
 test("gives an empty list with no animal", async () => {
   const [breedList, status] = getBreedList();
 
-  const [breedList, status] = result.current;
-
   expect(breedList).toHaveLength(0);
   expect(status).toBe("unloaded");
 });
