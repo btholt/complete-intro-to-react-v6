@@ -65,8 +65,6 @@ import { connect } from "react-redux";
 // bottom
 const mapStateToProps = ({ theme }) => ({ theme });
 
-const WrappedDetails = connect(mapStateToProps)(Details);
-
 // replace DetailsWithRouter
 const ReduxWrappedDetails = connect(mapStateToProps)(Details);
 
