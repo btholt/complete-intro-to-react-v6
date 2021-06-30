@@ -79,8 +79,7 @@ Update your .eslintrc.json to:
     "plugin:import/errors",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
-    "prettier",
-    "prettier/react"
+    "prettier"
   ],
   "rules": {
     "react/prop-types": 0,
