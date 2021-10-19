@@ -42,6 +42,12 @@ This will allow us too to make ESLint play nice too (Prettier handles this autom
 }
 ```
 
+> 🚨 If you're seeing an error about parse errors in imported module `react-router-dom`, please add one line to the top inside your `parserOptions` of `.eslintrc.json`:
+> 
+> ``` 
+> "requireConfigFile": false 
+> ```
+
 Now with this, we can modify Details to be as so:
 
 ```javascript
