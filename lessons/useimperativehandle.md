@@ -16,6 +16,6 @@ The first thing we use is `useImperativeHandle`. This allows us to customize met
 
 From the parent, we assign via `useRef` a ref to each of the `ElaborateInput`s which is then forwarded on each on via the `forwardRef`. Now, on these refs inside the parent component we have those methods that we made inside the child so we can call them when we need to. In this case, we'll calling the focus when the parent knows that the child has an error.
 
-Again, you probably use this directly but it's good to know it exists. Normally it's better to not use this hook and try to accomplish the same thing via props but sometimes it may be useful to break this one out.
+Again, you probably won't use this directly but it's good to know it exists. Normally it's better to not use this hook and try to accomplish the same thing via props but sometimes it may be useful to break this one out.
 
 [imperative-handle]: https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FImperativeHandle.js
