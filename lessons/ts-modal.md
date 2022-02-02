@@ -12,7 +12,7 @@ TypeScript is a thin layer on top of JavaScript that adds the power of a static 
 
 This is going to be a brief intro: how to set it up and get going with it. If you want more TypeScript goodness, check out [Mike North's course][mike].
 
-First thing, `npm install -D typescript@4.2.2`. Then run `npx tsc --init`. `npx` will run the TypeScript tool directly from your node_modules and init your project for you. You'll see now a tsconfig.json. We don't need to set up anything else since Parcel already knows how to handle TypeScript files. Open your new `tsconfig.json` file and uncomment the `jsx` field. This lets TypeScript that you're writing React. Then update the target to be `ES2020` so that you can use async / await and promises.
+First thing, `npm install -D typescript@4.2.2`. Then run `npx tsc --init`. `npx` will run the TypeScript tool directly from your node_modules and init your project for you. You'll see now a tsconfig.json. We don't need to set up anything else since Parcel already knows how to handle TypeScript files. Open your new `tsconfig.json` file and uncomment the `jsx` field. This lets TypeScript know that you're writing React. Then update the target to be `ES2020` so that you can use async / await and promises.
 
 Next we need to install the types for our project. Not all projects are written in TypeScript so another project, DefinitelyTyped, provides third party types for your library. In order to install these types, run `npm install -D @types/react@17.0.2 @types/react-dom@17.0.1 @types/react-router-dom@5.1.7`. This will grab all these type definitions.
 
