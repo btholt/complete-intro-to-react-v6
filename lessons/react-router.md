@@ -10,7 +10,7 @@ description: "One component should do one thing. Brian shows you how to break do
 
 React Router is by far the most popular client side router in the React community. It is mature, being used by big companies, and battle tested at large scales. It also has a lot of really cool capabilities, some of which we'll examine here.
 
-What we want to do now is to add a second page to our application: a Details page where you can out more about each animal.
+What we want to do now is to add a second page to our application: a Details page where you can find out more about each animal.
 
 Let's quickly make a second page so we can switch between the two. Make file called Details.js.
 
