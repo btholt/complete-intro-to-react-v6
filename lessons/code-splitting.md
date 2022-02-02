@@ -34,7 +34,7 @@ const SearchParams = lazy(() => import("./SearchParams"));
 </Suspense>;
 ```
 
-That's it! Now Parcel will handle the rest of the glueing together for you!! Your initial bundle will load, then after that it will resolve that you want to load another piece, show the loading component (we show a lame amount of text but this could be fancy loading screen.) This Details page isn't too big but imagine if it had libraries like Moment or Lodash on it! It could be a big savings.
+That's it! Now Parcel will handle the rest of the gluing together for you!! Your initial bundle will load, then after that it will resolve that you want to load another piece, show the loading component (we show a lame amount of text but this could be fancy loading screen.) This Details page isn't too big but imagine if it had libraries like Moment or Lodash on it! It could be a big savings.
 
 Now our whole app loads async. What's great is that we can show the user _something_ (in this case just the header and the loading h1 but you should do better UX than that) and then load the rest of the content. You get to make your page fast.
 
