@@ -14,7 +14,7 @@ Context (mostly) replaces Redux. Well, typically. It fills the same need as Redu
 
 Again, this is a contrived example. What we're doing here is overkill and should be accomplished via React's normal patterns. A better example would be something like a user's logged-in information. But let's check out what this looks like with theme.
 
-Imagine if we wanted to let the user choose a simple theme for the site. And we want to make that theme stick as the user navigates across different pages. This means the state has to live outside of the route where it's selected. We could use Redux for this, we could use React itself, or we're going to use context, to teach you what that looks like.
+Imagine if we wanted to let the user choose a simple theme for the site. And we want to make that theme stick as the user navigates across different pages. This means the state has to live outside of the route where it's selected. We could use Redux for this, or we could use React itself, but we're going to use context, to teach you what that looks like.
 
 Make a new file called ThemeContext.js:
 
