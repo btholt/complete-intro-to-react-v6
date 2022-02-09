@@ -36,7 +36,7 @@ order,title,link0,link1,link2,link3,link4,link5,link6,link7,link8,link9,link10,l
 9H,useLayoutEffect,https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FLayoutEffect.js,,,,,,,,,,,,,,,,,,,
 9I,useImperativeHandle,https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FImperativeHandle.js,,,,,,,,,,,,,,,,,,,
 9J,useDebugValue,https://codesandbox.io/s/github/btholt/react-hooks-examples-v3/tree/master/?module=%2Fsrc%2FDebugValue.js,,,,,,,,,,,,,,,,,,,
-10A,CSS and React,https://btholt.github.io/complete-intro-to-react/,https://btholt.github.io/complete-intro-to-react-v5/emotion,https://tailwindcss.com/docs,https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss,,,,,,,,,,,,,,,,
+10A,CSS and React,,,,,,,,,,,,,,,,,,,,
 10B,Tailwind Basics,,,,,,,,,,,,,,,,,,,,
 10C,Tailwind Plugins,,,,,,,,,,,,,,,,,,,,
 10D,Grid and Breakpoints,,,,,,,,,,,,,,,,,,,,
