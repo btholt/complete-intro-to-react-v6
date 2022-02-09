@@ -12,6 +12,7 @@
   position: sticky;
   width: 100%;
   top: 0;
+  padding: 10px;
   z-index: 10;
   display: flex;
   justify-content: space-between;
@@ -110,4 +111,36 @@
   width: 100%;
   border: 1px solid #666;
   border-radius: 5px;
+}
+
+
+.button {
+  border-radius: 10px;
+  padding: 0;
+  background: #224159;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button .icon {
+  padding-left: 5px;
+  display: inline-block;
+}
+
+.button a {
+  padding: 3px 8px;
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 1125px) {
+  .mobile-hidden {
+    display: none;
+  }
+  .lesson-container {
+    padding-top: 65px;
+  }
 }
