@@ -38,6 +38,9 @@ This will allow us too to make ESLint play nice too (Prettier handles this autom
 {
   …
   "parser": "@babel/eslint-parser",
+    "babelOptions": {
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+  },
   …
 }
 ```
