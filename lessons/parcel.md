@@ -24,7 +24,7 @@ Now inside of your `package.json` put:
 }
 ```
 
-Now open http://localhost:1234. You should see your site come up. The difference here is now it's being run through Parcel which means we can leverage all the features that Parcel allows us which we will explore shortly.
+Run the dev script and then open http://localhost:1234. You should see your site come up. The difference here is now it's being run through Parcel which means we can leverage all the features that Parcel allows us which we will explore shortly.
 
 So how does it work? We gave the entry point, which is index.html. It then reads that index.html file and finds its dependencies, which are the two React files and the one App.js file that we linked to. It's smart enough to detect that those two React files are remote so it doesn't do anything with those, but it sees that App.js is local and so it reads it and compiles its dependencies. Right now it has no dependencies so let's fix that.
 
