@@ -14,7 +14,7 @@ Take the Intermediate course! You'll learn great things like Tailwind, how to wr
 
 ## Paginate the Results
 
-Our home page doesn't paginate doesn't results. With some nice buttons, you could paginate through the various results so a user isn't stuck looking at the top ten results. `http://pets-v2.dev-apis.com/pets?animal=dog&page=1` will give you the second page of dogs (pages for this API start at 0).
+Our home page doesn't paginate results. With some nice buttons, you could paginate through the various results so a user isn't stuck looking at the top ten results. `http://pets-v2.dev-apis.com/pets?animal=dog&page=1` will give you the second page of dogs (pages for this API start at 0).
 
 ## Use a Real API
 

@@ -29,22 +29,23 @@ export default function changeLocation(location) {
 changeAnimal.js
 
 ```javascript
-export default function changeAnimal(location) {
-  return { type: "CHANGE_ANIMAL", payload: location };
+export default function changeAnimal(animal) {
+  return { type: "CHANGE_ANIMAL", payload: animal };
 }
 ```
 
 changeLocation.js
 
 ```javascript
-export default function changeBreed(location) {
-  return { type: "CHANGE_BREED", payload: location };
+export default function changeBreed(breed) {
+  return { type: "CHANGE_BREED", payload: breed };
 }
 ```
 
 That's it for action creators. In previous versions of this course, I taught how to do async actions so [check this out if you want to see that][v4-async]. there are a thousand flavors of how to do async with Redux. The most popular are [redux-observable][ro], [redux-saga][rs], [redux-promise][rp], and [redux-thunk][rt]. I showed how to use redux-thunk because it's simplest: the others are more powerful but more complex.
 
 [fsa]: https://github.com/redux-utilities/flux-standard-action
+[v4-async]: https://btholt.github.io/complete-intro-to-react-v4/redux
 [ro]: https://github.com/redux-observable/redux-observable
 [rs]: https://redux-saga.js.org/
 [rp]: https://docs.psb.codes/redux-promise-middleware/

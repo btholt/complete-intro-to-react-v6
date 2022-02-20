@@ -66,7 +66,7 @@ const [theme] = useContext(ThemeContext);
 ```
 
 - Now your button should be a beautiful shade of `darkblue`.
-- `useContext` is how you get the context data out of a given context (you can lots of various types of context in a given app.)
+- `useContext` is how you get the context data out of a given context (you can add lots of various types of context in a given app.)
 - Right now it's just reading from it and a pretty silly use of context. But let's go make Details.js use it as well.
 
 Let's go do this in Details.js

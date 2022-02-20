@@ -6,9 +6,9 @@ section: "TailwindCSS"
 description: ""
 ---
 
-There are many ways to do CSS with React. Even just in this course I've done several ways with [style-components][sc] and [emotion][emotion]. Both of those are fantastic pieces of software and could definitely still be used today. As is the case when I teach this course I try to cover the latest material and what I think is the current state-of-the-art of the industry and today I think that is [TailwindCSS][tailwind].
+There are many ways to do CSS with React. Even just in this course I've done several ways with [styled-components][sc] and [emotion][emotion]. Both of those are fantastic pieces of software and could definitely still be used today. As is the case when I teach this course I try to cover the latest material and what I think is the current state-of-the-art of the industry and today I think that is [TailwindCSS][tailwind].
 
-Both style-components and emotion are libraries that execute in the JavaScript layer. They bring your CSS into your JavaScript. This allows you all the power of JavaScript to manipulate styles using JavaScript.
+Both styled-components and emotion are libraries that execute in the JavaScript layer. They bring your CSS into your JavaScript. This allows you all the power of JavaScript to manipulate styles using JavaScript.
 
 Tailwind however is a different approach to this. And it bears mentioning that Tailwind isn't tied to React at all (whereas styled-components is and emotion mostly is.) Everything I'm showing you here is just incidentally using React (though Tailwind is particularly popular amongst React devs.)
 

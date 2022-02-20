@@ -6,7 +6,7 @@ section: "Special Case React Tools"
 description: ""
 ---
 
-Another nice feature React is something called a Portal. You can think of the portal as a separate mount point (the actual DOM node which your app is put into) for your React app. A common use case for this is going to be doing modals. You'll have your normal app with its normal mount point and then you can also put different content into a separate mount point (like a modal or a contextual nav bar) directly from a component. Pretty cool!
+Another nice feature in React is something called a Portal. You can think of the portal as a separate mount point (the actual DOM node which your app is put into) for your React app. A common use case for this is going to be doing modals. You'll have your normal app with its normal mount point and then you can also put different content into a separate mount point (like a modal or a contextual nav bar) directly from a component. Pretty cool!
 
 First thing, let's go into index.html and add a separate mount point:
 
@@ -15,7 +15,7 @@ First thing, let's go into index.html and add a separate mount point:
 <div id="modal"></div>
 ```
 
-This where the modal will actually be mounted whenever we render to this portal. Totally separate from our app root.
+This is where the modal will actually be mounted whenever we render to this portal. Totally separate from our app root.
 
 Next create a file called Modal.js:
 
@@ -93,7 +93,7 @@ const {
 }
 ```
 
-- We're using a simple `window.location` redirect since we're heading off site. This is bad accessibility so you should be extra cautious when doing this. The button should be an `<a>` tag but I wanted to show you how to do it. But now if you click Yes on the adopt modal it'll take you to the page when you actually can adopt a pet!
+- We're using a simple `window.location` redirect since we're heading off site. This is bad accessibility so you should be extra cautious when doing this. The button should be an `<a>` tag but I wanted to show you how to do it. But now if you click Yes on the adopt modal it'll take you to the page where you actually can adopt a pet!
 - Notice that despite we're rendering a whole different part of the DOM we're still referencing the state in Details.js. This is the magic of Portals. You can use state but render in different parts of the DOM. Imagine a sidebar with contextual navigation. Or a contextual footer. It opens up a lot of cool possibilities.
 
 That's it! That's how you make a modal using a portal in React. This used to be significantly more difficult to do but with portals it became trivial. The nice thing about portals is that despite the actual elements being in different DOM trees, these are in the same React trees, so you can do event bubbling up from the modal. Some times this is useful if you want to make your Modal more flexible (like we did.)
