@@ -86,7 +86,7 @@ componentDidUpdate() {
 // first thing inside render
 if (this.state.redirect) {
   return <Redirect to="/" />;
-} } else if (this.state.hasError) {
+} else if (this.state.hasError) {
   …
 }
 ```
