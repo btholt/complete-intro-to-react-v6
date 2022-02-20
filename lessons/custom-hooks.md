@@ -8,7 +8,7 @@ description: "You can even make your own hooks! Brian shows how to extract logic
 
 For now, we're going to make a custom hook of our own. Just like `useState` is a hook, there are a few others like `useEffect` (which we'll use in this lesson), `useReducer` (for doing Redux-like reducers), `useRefs` (for when you need to have programmatic access to a DOM node), and `useContext` (for using React's context which we'll do shortly as well.) But like React hooks, we can use these hooks to make our re-usable hooks.
 
-We need a list of breeds based on which animal is selected. In general this would be nice to request _once_ and if a user returns later to the same animal, that we would have some cache of that. We could implement in the component (and in general I probably would, this is overengineering it for just one use) but let's make a custom hook for it.
+We need a list of breeds based on which animal is selected. In general this would be nice to request _once_ and if a user returns later to the same animal, that we would have some cache of that. We could implement it in the component (and in general I probably would, this is overengineering it for just one use) but let's make a custom hook for it.
 
 Make a new file called `useBreedList.js` in src and put this in it.
 
