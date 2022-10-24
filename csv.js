@@ -1,4 +1,4 @@
-const fs = require("fs").promises;
+const fs = require("fs").promises; //just an example
 const path = require("path");
 const fm = require("front-matter");
 const isUrl = require("is-url-superb");
